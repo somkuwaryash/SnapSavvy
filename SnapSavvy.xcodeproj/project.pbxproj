@@ -14,6 +14,10 @@
 		E323EFCA2C33DCB400D2F040 /* SnapSavvyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323EFC92C33DCB400D2F040 /* SnapSavvyTests.swift */; };
 		E323EFD42C33DCB400D2F040 /* SnapSavvyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323EFD32C33DCB400D2F040 /* SnapSavvyUITests.swift */; };
 		E323EFD62C33DCB400D2F040 /* SnapSavvyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323EFD52C33DCB400D2F040 /* SnapSavvyUITestsLaunchTests.swift */; };
+		E323EFE32C33E18200D2F040 /* PhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323EFE22C33E18200D2F040 /* PhotoPickerView.swift */; };
+		E323EFE52C33E9BF00D2F040 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323EFE42C33E9BF00D2F040 /* MainScreenView.swift */; };
+		E323EFE72C34245E00D2F040 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323EFE62C34245E00D2F040 /* FilterView.swift */; };
+		E323EFE92C34414D00D2F040 /* ShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E323EFE82C34414D00D2F040 /* ShareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		E323EFCF2C33DCB400D2F040 /* SnapSavvyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapSavvyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E323EFD32C33DCB400D2F040 /* SnapSavvyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSavvyUITests.swift; sourceTree = "<group>"; };
 		E323EFD52C33DCB400D2F040 /* SnapSavvyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapSavvyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E323EFE22C33E18200D2F040 /* PhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerView.swift; sourceTree = "<group>"; };
+		E323EFE42C33E9BF00D2F040 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		E323EFE62C34245E00D2F040 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		E323EFE82C34414D00D2F040 /* ShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				E323EFB82C33DCB200D2F040 /* SnapSavvyApp.swift */,
+				E323EFE62C34245E00D2F040 /* FilterView.swift */,
 				E323EFBA2C33DCB200D2F040 /* ContentView.swift */,
+				E323EFE22C33E18200D2F040 /* PhotoPickerView.swift */,
+				E323EFE42C33E9BF00D2F040 /* MainScreenView.swift */,
+				E323EFE82C34414D00D2F040 /* ShareView.swift */,
 				E323EFBC2C33DCB400D2F040 /* Assets.xcassets */,
 				E323EFBE2C33DCB400D2F040 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E323EFE92C34414D00D2F040 /* ShareView.swift in Sources */,
 				E323EFBB2C33DCB200D2F040 /* ContentView.swift in Sources */,
+				E323EFE32C33E18200D2F040 /* PhotoPickerView.swift in Sources */,
 				E323EFB92C33DCB200D2F040 /* SnapSavvyApp.swift in Sources */,
+				E323EFE72C34245E00D2F040 /* FilterView.swift in Sources */,
+				E323EFE52C33E9BF00D2F040 /* MainScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
